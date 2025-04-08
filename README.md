@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:08..04.25
+## Register Number:212223220093
+## Name:SANDHIYA SREE B
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,44 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+Digital Kiosks:
+Touch-Screen Interfaces: Easy-to-use maps and search functionality at station entrances and key points.
+
+QR Code Integration: Passengers can scan a QR to continue navigation on their phones.
+
+Accessibility Features: Large buttons, voice search, and audio instructions for visually impaired or elderly users.
 
 
 ## Proposed Solution / Architecture Diagram
+![image](https://github.com/user-attachments/assets/5cebb962-cc5e-46bc-8dab-bae6f73cbfa1)
 
 
 ## Use Cases
+![image](https://github.com/user-attachments/assets/94e8a192-fd2f-4616-a1a9-4eec2dea0368)
 
 
-## Technology Stack
+## Technology Stack:
+Digital Kiosks (Touch Interfaces)
+
+HTML5, CSS3, JavaScript
+
+React.js / Vue.js – For interactive UI
+
+Electron / Progressive Web App (PWA) – For offline support and desktop-like UI
 
 
 ## Dependencies
+react-router-dom – Page navigation
+
+leaflet / mapbox-gl-js – Web map rendering
+
+axios – API calls
+
+i18next – Internationalization
+
+howler.js / responsive-voice – Audio output for accessibility
+
+react-voice-recorder – Voice input
+
+chart.js / recharts – For data display
 
